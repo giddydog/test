@@ -52,31 +52,30 @@ This will install the correct Node version supported by this app. Now you can ru
 To view the compiled assets as well as continuously compile the assets as files are changed, you can run `grunt serve` to compile the assets and styleguides, run the `watch` task, and set up a local server.
 
 Access the compiled styleguides:
-
-    <http://localhost:7001/styleguides/selfserve/>
-    <http://localhost:7001/styleguides/selfserve/>
+<http://localhost:7001/styleguides/selfserve/>
+<http://localhost:7001/styleguides/selfserve/>
 
 ### Developing
 #### JavaScript
 
 All JavaScript files are located within the `assets/_js` directory. This directory is further split up into the following directories:
 
-    [components](https://github.com/OLCS/olcs-static/tree/develop/assets/_js/components) (custom JS components)
-    [init](https://github.com/OLCS/olcs-static/tree/develop/assets/_js/init) (initialise custom JS components)
-    [vendor](https://github.com/OLCS/olcs-static/tree/develop/assets/_js/vendor) (third party JS)
+[components](https://github.com/OLCS/olcs-static/tree/develop/assets/_js/components) (custom JS components)
+[init](https://github.com/OLCS/olcs-static/tree/develop/assets/_js/init) (initialise custom JS components)
+[vendor](https://github.com/OLCS/olcs-static/tree/develop/assets/_js/vendor) (third party JS)
 
 #### Sass/CSS
 All custom CSS is compiled from source Scss files which can be found in the `assets/_styles` directory. This directory is further split up into the following directories:
 
-    [components](https://github.com/OLCS/olcs-static/tree/develop/assets/_styles/components) (custom Sass components)
-    [core](https://github.com/OLCS/olcs-static/tree/develop/assets/_styles/core) (core Sass components)
-    [vendor](https://github.com/OLCS/olcs-static/tree/develop/assets/_styles/vendor) (thid party styles)
-    [views](https://github.com/OLCS/olcs-static/tree/develop/assets/_styles/views) (styles for specific views)
+[components](https://github.com/OLCS/olcs-static/tree/develop/assets/_styles/components) (custom Sass components)
+[core](https://github.com/OLCS/olcs-static/tree/develop/assets/_styles/core) (core Sass components)
+[vendor](https://github.com/OLCS/olcs-static/tree/develop/assets/_styles/vendor) (thid party styles)
+[views](https://github.com/OLCS/olcs-static/tree/develop/assets/_styles/views) (styles for specific views)
 
 Desired partials are then imported into the appropriate theme to be processed.
 
-    [internal](https://github.com/OLCS/olcs-static/blob/develop/assets/_styles/themes/internal.scss)
-    [selfserve](https://github.com/OLCS/olcs-static/blob/develop/assets/_styles/themes/selfserve.scss)
+[internal](https://github.com/OLCS/olcs-static/blob/develop/assets/_styles/themes/internal.scss)
+[selfserve](https://github.com/OLCS/olcs-static/blob/develop/assets/_styles/themes/selfserve.scss)
 
 ### Grunt Tasks
 OLCS uses Grunt as the front end build tool, with all configuration being contained within `Gruntfile.js`. There are several pre-defined tasks which can be executed:
