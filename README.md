@@ -62,33 +62,33 @@ Access the compiled styleguides:
 
 All JavaScript files are located within the `assets/_js` directory. This directory is further split up into the following directories:
 
-* [components](https://github.com/OLCS/olcs-static/tree/develop/assets/_js/components) (custom JS components)
+* [components](./tree/develop/assets/_js/components) (custom JS components)
 
-* [init](https://github.com/OLCS/olcs-static/tree/develop/assets/_js/init) (initialise custom JS components)
+* [init](./tree/develop/assets/_js/init) (initialise custom JS components)
 
-* [vendor](https://github.com/OLCS/olcs-static/tree/develop/assets/_js/vendor) (third party JS)
+* [vendor](./tree/develop/assets/_js/vendor) (third party JS)
 
 #### Sass/CSS
 All custom CSS is compiled from source Scss files which can be found in the `assets/_styles` directory. This directory is further split up into the following directories:
 
-* [components](https://github.com/OLCS/olcs-static/tree/develop/assets/_styles/components) (custom Sass components)
+* [components](./tree/develop/assets/_styles/components) (custom Sass components)
 
-* [core](https://github.com/OLCS/olcs-static/tree/develop/assets/_styles/core) (core Sass components)
+* [core](./tree/develop/assets/_styles/core) (core Sass components)
 
-* [vendor](https://github.com/OLCS/olcs-static/tree/develop/assets/_styles/vendor) (thid party styles)
+* [vendor](./tree/develop/assets/_styles/vendor) (thid party styles)
 
-* [views](https://github.com/OLCS/olcs-static/tree/develop/assets/_styles/views) (styles for specific views)
+* [views](./tree/develop/assets/_styles/views) (styles for specific views)
 
 Desired partials are then imported into the appropriate theme to be processed.
 
-* [internal](https://github.com/OLCS/olcs-static/blob/develop/assets/_styles/themes/internal.scss)
+* [internal](./blob/develop/assets/_styles/themes/internal.scss)
 
-* [selfserve](https://github.com/OLCS/olcs-static/blob/develop/assets/_styles/themes/selfserve.scss)
+* [selfserve](./blob/develop/assets/_styles/themes/selfserve.scss)
 
 ### Grunt Tasks
 OLCS uses Grunt as the front end build tool, with all configuration being contained within `Gruntfile.js`. There are several pre-defined tasks which can be executed:
 
-#####$ grunt compile* 
+#####$ grunt compile
 This is a basic task to compile the front end assets. Depending on the `env` argument, which can either be `dev` (default) or `prod`, the compiled assets either will or won't be minified. You can pass the env argument when running this task like so:
 
 ```
@@ -114,7 +114,9 @@ Run JavaSript unit tests.
 Run a single JavaScript unit test for a specific component: `$ grunt test:single --target=componentName`
 
 ### Linting/Unit Testing
-**Coming** **soon**
+'''
+Coming soon
+'''
 
 ### Authors
 * Edmund Reed
