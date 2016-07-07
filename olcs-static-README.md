@@ -5,7 +5,7 @@ This repo contains the styleguides, prototypes and static assets for both the OL
 To view the compiled end result, visit [http://olcs.github.io/olcs-static/](http://olcs.github.io/olcs-static/).
 
 ### Change History 
-Updated for the OLCS Private Beta.
+Updated for the OLCS Private Beta. For a detailed change log, see the file named [CHANGELOG.md](./CHANGELOG.md). 
 
 ### Known Issues 
 There are no known issues with the Address Service.
