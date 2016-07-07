@@ -114,9 +114,9 @@ Run JavaSript unit tests.
 Run a single JavaScript unit test for a specific component: `$ grunt test:single --target=componentName`
 
 ### Linting/Unit Testing
-'''
+```
 Coming soon
-'''
+```
 
 ### Authors
 * Edmund Reed
