@@ -21,7 +21,7 @@ If you would like to send a bug report or contact us regarding any code-related 
 
 ### License 
 Copyright (c) 2016 HM Government (Driver and Vehicle Standards Agency) 
-Free software published under an MIT License - please see the file named [LICENSE.txt](./LICENSE.txt]. 
+Free software published under an MIT License - please see the file named [LICENSE.txt](./LICENSE.txt). 
 
 ### Installation
 * Clone the repo: *
