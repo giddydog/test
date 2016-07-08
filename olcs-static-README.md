@@ -8,7 +8,7 @@ To view the compiled end result, visit [http://olcs.github.io/olcs-static/](http
 Updated for the OLCS Private Beta. For a detailed change log, see the file named [CHANGELOG.md](./CHANGELOG.md). 
 
 ### Known Issues 
-There are no known issues with the Address Service.
+There are no known issues with the OLCS Static HTML.
 
 ### Contributors 
 If you would like to send a bug report or contact us regarding any code-related queries please create an issue within the GitHub project. Valid reports and queries will receive responses within 60 days.
